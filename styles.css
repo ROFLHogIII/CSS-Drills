@@ -70,5 +70,36 @@ h2 {
 }
 
 h1 {
-    color: #81ef85
+    color: #81ef85;
+    /* the new h1s take the same color as the others as there is nothing distiguishing them from the origional 3 */
+}
+.first {
+    color: blue
+    /* the first 3 h1s take on the new color, overwriting the above style */
+}
+.second {
+    color: blueviolet
+    /* it appears styling applied to a class overrites the styling applied to a general element */
+}
+
+#place1 {
+    color: gold
+}
+#place2 {
+    color: silver
+}
+#place3 {
+    color: #cd7f32
+}
+#place4 {
+    color: #11A477
+}
+#place5 {
+    color: #343637
+}
+/* stylings based on id values superceed those based on class */
+
+.list-border {
+    border: 2px solid black;
+    background-color: aqua
 }
