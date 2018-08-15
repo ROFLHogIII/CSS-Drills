@@ -49,21 +49,26 @@ a {
 a:hover {
     cursor: pointer;
     font-weight: bold;
-    color: #22aa44
+    color: #22aa44;
 }
 
 .im-different {
     color: #f17bd8;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .image {
     height: 10px;
     width: 10px;
     background-color: ivory;
-    display: inline-block
+    display: inline-block;
+    margin: 5px;
 }
 
 h2 {
     display: inline;
+}
+
+h1 {
+    color: #81ef85
 }
