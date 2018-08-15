@@ -9,3 +9,40 @@ h2, p, .readme-wrapper {
 a {
     text-decoration: none;
 }
+
+.boxes {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 1rem;
+    border-radius: 1rem;
+    width: 20%;
+}
+
+#box1 {
+    background-color: crimson;
+}
+
+#box2 {
+    background-color: orangered;
+    position: relative;
+}
+
+#box3 {
+    background-color: rebeccapurple;
+}
+
+#box4 {
+    background-color: goldenrod;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: #22aa44
+}
+
+.im-different {
+    color: #f17bd8;
+    font-weight: bold
+}
