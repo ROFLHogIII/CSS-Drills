@@ -25,7 +25,17 @@ a {
 
 #box2 {
     background-color: orangered;
+    /*
+    Step 15 and 16
     position: relative;
+    bottom: 24em;
+    left: 15em; */
+
+    /*
+    Step 17 and 18
+    position: absolute;
+    top: 0;
+    right: 0; */
 }
 
 #box3 {
@@ -45,4 +55,15 @@ a:hover {
 .im-different {
     color: #f17bd8;
     font-weight: bold
+}
+
+.image {
+    height: 20px;
+    width: 20px;
+    background-color: ivory;
+}
+
+.float {
+    float: left;
+    clear: both;
 }
